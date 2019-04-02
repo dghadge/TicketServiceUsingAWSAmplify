@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "ticketservice",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito7d1c302c",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

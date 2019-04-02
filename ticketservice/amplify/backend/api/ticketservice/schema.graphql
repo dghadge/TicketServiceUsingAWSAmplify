@@ -1,0 +1,7 @@
+type Tickets @model {
+  seatId: ID!
+  email: String
+  rowNumber: Int
+	seatNumber: Int
+  description: String
+}

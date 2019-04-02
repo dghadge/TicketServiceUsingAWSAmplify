@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ticketservice" ng-init="action=1">
+
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="webcontent/images/ticket.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Ticket Service</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="webcontent/css/bootstrap.min.css" rel="stylesheet">
+    <link href="webcontent/css/cerulean-bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="webcontent/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- Custom styles for this template -->
+    <script src="webcontent/js/tickets.js"></script>
+    <script src="webcontent/js/jquery.min.js"></script>
+    <link href="webcontent/css/tickets.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 10000
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <div class="customhead-text">
+                    <i class="fa fa-ticket" aria-hidden="true"></i>
+                TicketService - Concert Ticket Booking Made Easy
+            </div>
+        </h1>
+    </header>
+    <div id="myCarousel" class="carousel container slide">
+        <div class="carousel-inner">
+            <div class="active item one"></div>
+            <div class="item two"></div>
+            <div class="item three"></div>
+            <div class="item four"></div>
+            <div class="item five"></div>
+            <div class="item six"></div>
+        </div>
+    </div>
+    <div id="root"></div>
+    <!-- Bootstrap core JavaScript
+	    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="webcontent/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="webcontent/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

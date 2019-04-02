@@ -1,0 +1,98 @@
+/*Carousel Slider*/
+
+.carousel {
+    z-index: -99;
+}
+
+.carousel .item {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    -ms-transition-duration: 700ms;
+    transition-duration: 700ms;
+}
+
+.carousel .one {
+    background: url('../images/21Pilots.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .two {
+    background: url('../images/Springstien.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .three {
+    background: url('../images/Drake.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .four {
+    background: url('../images/edsheeran.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .five {
+    background: url('../images/gaga.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .six {
+    background: url('../images/jt.jpeg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .active.left {
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+}
+/*Carousel Slider*/
+
+header {
+    background-color: #002f55;
+    color: #f7f7f7;
+}
+
+header h1 {
+    height: 70px;
+    margin: 0;
+    font-size: 250%;
+    font-weight: 600;
+}
+
+/*keeps elements on single line*/
+
+header h1>div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+}
+
+header h1 .customhead-text {
+    margin-left: 20%;
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 120%;
+    color: aliceblue;
+    padding-left: 50px;
+}
+
+@media (max-width: 991px) {
+    header h1 {
+        clear: right;
+    }
+    header h1 .tickets-logo {
+        margin-right: 5px;
+    }
+}
