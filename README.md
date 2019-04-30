@@ -37,6 +37,7 @@ ________________________________________________________________________________
 
 ##### 1.  Install [Node.js®](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm)
 
+    If you have brew use "brew install node"
     Verify that you are running at least Node.js version 8.x or greater and npm version 5.x 
     or greater by running node -v and npm -v in a terminal/console window.
 
